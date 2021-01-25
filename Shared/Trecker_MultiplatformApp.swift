@@ -9,10 +9,14 @@ import SwiftUI
 
 @main
 struct Trecker_MultiplatformApp: App {
+    
+    @StateObject var store = LocationStore()
+    
+    
     var body: some Scene {
         WindowGroup {
             NavigationView {
-                LocationDetail(location: Location.example)
+                LocationsList(store: store)
             }
         }
     }
