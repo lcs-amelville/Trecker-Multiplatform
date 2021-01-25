@@ -13,6 +13,10 @@
 		CB1E3BF425BF58FD008CE00A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1E3BDF25BF58F9008CE00A /* ContentView.swift */; };
 		CB1E3BF525BF58FD008CE00A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB1E3BE025BF58FD008CE00A /* Assets.xcassets */; };
 		CB1E3BF625BF58FD008CE00A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB1E3BE025BF58FD008CE00A /* Assets.xcassets */; };
+		CB1E3C0725BF5A4D008CE00A /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = CB1E3C0525BF5A4D008CE00A /* tips.json */; };
+		CB1E3C0825BF5A4D008CE00A /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = CB1E3C0525BF5A4D008CE00A /* tips.json */; };
+		CB1E3C0925BF5A4D008CE00A /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = CB1E3C0625BF5A4D008CE00A /* locations.json */; };
+		CB1E3C0A25BF5A4D008CE00A /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = CB1E3C0625BF5A4D008CE00A /* locations.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,8 @@
 		CB1E3BED25BF58FD008CE00A /* Trecker Multiplatform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trecker Multiplatform.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB1E3BEF25BF58FD008CE00A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB1E3BF025BF58FD008CE00A /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		CB1E3C0525BF5A4D008CE00A /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
+		CB1E3C0625BF5A4D008CE00A /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				CB1E3BDE25BF58F9008CE00A /* Trecker_MultiplatformApp.swift */,
-				CB1E3C0225BF5920008CE00A /* Files for Data Model */,
+				CB1E3C0225BF5920008CE00A /* Model */,
 				CB1E3C0125BF5919008CE00A /* Views */,
 				CB1E3BE025BF58FD008CE00A /* Assets.xcassets */,
 			);
@@ -99,11 +105,13 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		CB1E3C0225BF5920008CE00A /* Files for Data Model */ = {
+		CB1E3C0225BF5920008CE00A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CB1E3C0625BF5A4D008CE00A /* locations.json */,
+				CB1E3C0525BF5A4D008CE00A /* tips.json */,
 			);
-			path = "Files for Data Model";
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,6 +193,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB1E3BF525BF58FD008CE00A /* Assets.xcassets in Resources */,
+				CB1E3C0925BF5A4D008CE00A /* locations.json in Resources */,
+				CB1E3C0725BF5A4D008CE00A /* tips.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +203,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB1E3BF625BF58FD008CE00A /* Assets.xcassets in Resources */,
+				CB1E3C0A25BF5A4D008CE00A /* locations.json in Resources */,
+				CB1E3C0825BF5A4D008CE00A /* tips.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
