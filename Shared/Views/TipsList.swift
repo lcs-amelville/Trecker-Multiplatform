@@ -21,6 +21,7 @@ struct TipsList: View {
             }
             
         }
+        .navigationTitle("Tips")
     }
     init() {
         
